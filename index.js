@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 // serve static files
 app.use(express.static('public'));
 
+
 // store messages in an array
 const messages = [];
 
